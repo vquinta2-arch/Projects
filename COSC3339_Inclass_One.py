@@ -1,6 +1,6 @@
-# YOUR NAME HERE
-# YOUR SECTION HERE
-# DATE OF EDITING HERE
+# Vinicius Quintana
+# Section 01
+# 01/15/2026
 
 """
 ASSIGNMENT: INTRODUCTION TO MERGING
@@ -13,8 +13,9 @@ branches to simulate merge conflicts.
 import math
 
 # This method contains a bug. In your commit note, state the bug and how you fixed it
+# Changed the formula to be the correct hypotenuse formula
 def calculate_hypotenuse(side_a, side_b):
-    result = side_a + side_b  
+    result = math.sqrt((side_a**2) + (side_b**2))  
     return result
 
 # This method contains a bug. In your commit note, state the bug and how you fixed it
