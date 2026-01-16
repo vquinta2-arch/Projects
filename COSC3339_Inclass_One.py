@@ -70,21 +70,21 @@ def curve_scores(scores):
 
 # For scenario three change the name of this method.
 # For scenario five fix the typos
-def not_validate_input(text_value): # Changed the helper method name.
+def validate_input(text_value): # Changed the helper method name.
 
-    valud_imput = True 
+    valid_input = True 
     
     if text_value is None:
-        valud_imput = False
+        valid_input = False
     
     if text_value == "":
-        valud_imput = False
+        valid_input = False
         
-    return valud_imput
+    return valid_input
     
 # Adding the helper function caller of the helper method
 def process_user_data(user_input):
-    _validate_imput(text_value)
+    validate_input(text_value)
 
 def main():
     print("--- STARTING TESTS ---")
